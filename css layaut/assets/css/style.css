@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trabajadores {
+    border: 0.5px solid #f0eff6;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trabajadores img {
+    width: 40px;
+    border-radius: 50%;
+    padding: 1px;
+
+}
+
+.trabajadores h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    padding: 1em;
+}
+
+.trabajadores p {
+    font-size: 10px;
+    color: #12d44c;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 2em;
+}
+
+.status h4 {
+    padding-left: 2em;
+}
+
+.status p {
+    padding-left: 3em;
+}
+
+
+
+.iconos {
+    display: flex;
+    align-items: end;
+    padding-left: 2em;
+
+}
+
+button {
+    background-color: #A491D2;
+    border: white;
+    border: 15px solid;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: #0d31e3;
+
+}
+
+
+.contacts {
+    flex: 0 0 1rem;
+    background-color: #FFF;
+    width: 100%;
+}
+
+.contatos1 {
+    background-color: #f2edec;
+    border: 0.1px solid #E8EBE4;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos1 img {
+    width: 33px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.contatos1 h5 {
+    font-size: 8px;
+    font-weight: bolder;
+    color: gray;
+    text-align: left;
+}
+
+.contatos1 h4 {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.contatos1 p {
+    text-align: left;
+    font-size: 6px;
+    color: red;
+    margin-left: 15px;
+}
+
+.section {
+    background-color: #E8EBE4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section img {
+    width: 20%;
+    padding: 2em;
+}
+
+.section h1 {
+    font-size: 45px;
+}
